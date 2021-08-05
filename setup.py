@@ -16,7 +16,7 @@ setuptools.setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "eol-custom-reg-form = custom_reg_form.apps:EolCustomRegFormConfig",
+            "eol_custom_reg_form = custom_reg_form.apps:EolCustomRegFormConfig",
         ]
     },
 )
