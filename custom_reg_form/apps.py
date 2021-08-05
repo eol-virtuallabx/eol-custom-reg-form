@@ -5,7 +5,7 @@ from openedx.core.djangoapps.plugins.constants import PluginSettings, PluginURLs
 
 
 class EolCustomRegFormConfig(AppConfig):
-    name = 'eol-custom-reg-form'
+    name = 'custom_reg_form'
 
     plugin_app = {
         PluginURLs.CONFIG: {
