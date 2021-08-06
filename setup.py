@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="eol-custom-reg-form",
+    name="eol_custom_reg_form",
     version="0.0.1",
     author="constanzaaltamirano",
     author_email="constanzaaltamirano@uchile.cl",
