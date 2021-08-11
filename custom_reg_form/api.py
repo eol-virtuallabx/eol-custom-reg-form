@@ -42,6 +42,8 @@ def rut_exists(labx_rut):
     """
         Verify if labx_rut exists in ExtraInfo model
     """
+    if labx_rut in ['222222222','22.222.222-2','22222222-2', '22222222']:
+        return False
     aux_rut = labx_rut[:-1]
     rut_dv = labx_rut[-1].upper()
     rut = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.', aux_rut)
